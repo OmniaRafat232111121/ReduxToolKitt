@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{componen from 'react'
 import Counter from './components/Counter'
 const App = () => {
   return (

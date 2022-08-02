@@ -1,21 +1,16 @@
-import React from 'react'
-import { useSelector ,useDispatch} from 'react-redux/es/exports';
-import {INCREMENT,DECREMENT} from '../redux/actions/types'
+import React, { useState } from 'react'
+import { useSelector } from 'react-redux/es/exports';
 export default function Counter()  {
-    //const {count,setCount} = useState(0);
+    const {count,setCount} = useState(0);
     const countState=useSelector(state=>state.count);
-    const dispatch=useDispatch()
+    const dispatch=use
     console.log(countState)
     const handleIncrement=()=>{
-        dispatch({
-          type:INCREMENT
-        });
+        setCount(count+1);
     }
 
     const handleDecrement=()=>{
-      dispatch({
-        type:DECREMENT
-      });
+        setCount(count-1);
     }
   return (
     <div>

@@ -1,5 +1,5 @@
-import React from 'react'
-import Counter from './components/Counter'
+import React,{com} from 'react'
+import
 const App = () => {
   return (
     <div>

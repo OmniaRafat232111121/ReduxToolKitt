@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useSelector ,useDispatch} from 'react-redux/es/exports';
 import {INCREMENT,DECREMENT} from '../redux/actions/types'
 export default function Counter()  {
