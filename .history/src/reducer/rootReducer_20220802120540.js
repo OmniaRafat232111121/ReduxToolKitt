@@ -1,0 +1,3 @@
+const Reducer=(staate=[],action)=>{
+
+}

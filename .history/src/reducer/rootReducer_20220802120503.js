@@ -1,0 +1,1 @@
+const Reducer=(atate=[],action)
