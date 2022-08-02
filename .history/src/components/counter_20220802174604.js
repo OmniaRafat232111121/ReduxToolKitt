@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { useSelector } from 'react-redux/es/exports';
+import React, { useState,useSelector } from 'react'
+
 export default function Counter()  {
     const {count,setCount} = useState(0);
     const countState=useSelector(state=>state.count);
