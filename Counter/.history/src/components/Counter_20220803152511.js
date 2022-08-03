@@ -2,9 +2,9 @@ import React from 'react'
 import { useSelector ,useDispatch} from 'react-redux/es/exports';
 import { INCREMENTACTION,DECREMENTACTION,INC_VALUEACTION} from '../redux/actions/countertypes';
 export default function Counter()  {
-    const countState=useSelector(state=>state.counter);
+    const {count}=useSelector(state=>state.counter);
     const dispatch=useDispatch()
-    console.log(countState)
+    console.log(countSt)
     const handleIncrement=()=>{
         INCREMENTACTION(dispatch);
     }
