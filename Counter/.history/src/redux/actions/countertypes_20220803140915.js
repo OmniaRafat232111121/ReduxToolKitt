@@ -1,4 +1,4 @@
-import {INCREMENT,DECREMENT,INC_VALUE} from './types'
+import {INCREMENT,DECREMENT,INC_VALUEACT} from './types'
 
 export const INCREMENTACTION=()=>{
 return{

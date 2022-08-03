@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector ,useDispatch} from 'react-redux/es/exports';
-import { INCREMENTACTION,DECREMENTACTION,INC_VALUEACTION} from '../redux/actions/countertypes';
+import { INCREMENTACTION,DECREMENTACTION,INC_VALUE } from '../redux/actions/countertypes';
 export default function Counter()  {
     const countState=useSelector(state=>state.count);
     const dispatch=useDispatch()
@@ -12,7 +12,7 @@ export default function Counter()  {
          dispatch(DECREMENTACTION());
     }
     const handleIncrementByValue=(v1)=>{
-          dispatch(INC_VALUEACTION(v1))
+          dispatch(INC_(v1))
     }
   return (
     <div>

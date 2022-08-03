@@ -11,7 +11,7 @@ export const DECREMENTACTION=()=>{
         type:DECREMENT
     }
 }
-export const INC_VALUEACTION=(v1)=>{
+export const INC_VALUEActio=(v1)=>{
     return{
         type:INC_VALUE,
         value:v1,

@@ -1,5 +1,6 @@
 import {INCREMENT,DECREMENT,INC_VALUE} from '../actions/types'
-const  counterReducer=(state={count:0},action)=>{
+const  counterReducer=(state={count:0},action={
+     ty})=>{
     switch(action.type){
         case INCREMENT:
     
