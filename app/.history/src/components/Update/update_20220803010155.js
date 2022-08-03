@@ -2,7 +2,7 @@ import React from 'react'
 
 const update = () => {
   return (
-    <div></div>
+    <div>Update</div>
   )
 }
 
