@@ -18,6 +18,7 @@ import MenuLink from "../MenuLink/MenuLink";
   
   export default function Leftbar() {
     return (
+        <MenuLink
       <div className="leftbar">
         <div className="leftbarWrapper">
           <MenuLink icon={<HomeOutlined />} text="Homepage" />

@@ -12,12 +12,12 @@ import {
     ShoppingBasketOutlined,
   } from "@material-ui/icons";
   import React from "react";
-import MenuLink from "../MenuLink/MenuLink";
- 
+  import MenuLink from "../menuLink/MenuLink";
   import "./Leftbar.css";
   
   export default function Leftbar() {
     return (
+        <M
       <div className="leftbar">
         <div className="leftbarWrapper">
           <MenuLink icon={<HomeOutlined />} text="Homepage" />
