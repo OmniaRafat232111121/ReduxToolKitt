@@ -6,9 +6,8 @@ const App = () => {
   return (
     <div>
      Hello Redux
-    
     <Counter/>
-     
+     <
     </div>
   )
 }

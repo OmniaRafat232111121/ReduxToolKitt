@@ -2,4 +2,5 @@ export const INCREMENT='INCREMENT';
 export const DECREMENT="DECREMENT";
 export const INC_VALUE="INC_VALUE";
 
-export const FetchData="Hellp Djdhchjdhgcd"
+
+export const FetchData="FetchDar="
