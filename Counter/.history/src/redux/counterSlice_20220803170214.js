@@ -18,14 +18,9 @@ initialState:{
   }
 })
 //actions
-
+reducers:{
+    actions
+}
 export const {increment,decrement,incrementByAmount}=counterSlice.actions
 //reducer
 export default counterSlice.reducer
-
-
-/*
-reducers:{
-    actions:
-}
-*/
