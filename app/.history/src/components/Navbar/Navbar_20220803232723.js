@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="navbarRight">
     <img className="avatar"src="https://images.pexels.com/photos/3866555/pexels-photo-3866555.png?cs=srgb&dl=pexels-clara-ngo-3866555.jpg&fm=jpg"/>
     <span className="navbarName"> </span>
-   <KeyboardArrowDownIcon/>
+   <KeyboardArrowDownIcon
     </div>
     </div>
     </div>

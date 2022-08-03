@@ -12,7 +12,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import PlaylistAddCheckOutlinedIcon from '@mui/icons-material/PlaylistAddCheckOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import LogoutIcon from '@mui/icons-material/Logout';
-import SettingsIcon from '@mui/icons-material/Settings';
+
   export default function Leftbar() {
     return (
       <div className="leftbar">
@@ -26,7 +26,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
           <MenuLink icon={<MissedVideoCallIcon />} text="Videos" />
           <MenuLink icon={<CalendarMonthIcon />} text="Schedule" />
           <MenuLink icon={<HearingIcon />} text="Wishlist" />
-          <MenuLink icon={<SettingsIcon />} text="Settings" />
+          <MenuLink icon={< />} text="Settings" />
           <MenuLink icon={<LogoutIcon />} text="Logout" />
         </div>
       </div>

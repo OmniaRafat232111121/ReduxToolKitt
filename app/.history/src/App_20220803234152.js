@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar";
 //import Leftbar from "./components/Leftbar/Leftbar";
 import Update from "./components/update/update";
 import Rightbar from "./components/Rightbar/Rightbar";
-import Leftbar from "./components/Leftbar/Leftbar";
 
 function App() {
   const [name,setName]=useState('omnia');
@@ -12,7 +11,7 @@ function App() {
     <>
     <Navbar name={name}/>
     <div className="container">
-     <Leftbar/>
+     <Left
      <Update/>
      <Rightbar/>
     </div>

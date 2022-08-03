@@ -26,7 +26,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
           <MenuLink icon={<MissedVideoCallIcon />} text="Videos" />
           <MenuLink icon={<CalendarMonthIcon />} text="Schedule" />
           <MenuLink icon={<HearingIcon />} text="Wishlist" />
-          <MenuLink icon={<SettingsIcon />} text="Settings" />
+          <MenuLink icon={< />} text="Settings" />
           <MenuLink icon={<LogoutIcon />} text="Logout" />
         </div>
       </div>
