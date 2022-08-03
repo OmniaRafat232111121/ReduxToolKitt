@@ -1,0 +1,21 @@
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import React from "react";
+
+import recommendation from '../recommendation/recommendation';
+import "./Rightbar.css";
+
+export default function Rightbar() {
+  return (
+    <div className="rightbar">
+      <div className="rightbarWrapper">
+        <recommendation type="user" />
+        <recommendation type="popular" />
+        <recommendation type="editor" />
+        <button className="rightButton">
+          See More
+          <KeyboardArrowDownIcon/>
+        </button>
+      </div>
+    </div>
+  );
+}

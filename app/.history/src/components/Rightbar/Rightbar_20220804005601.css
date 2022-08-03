@@ -1,0 +1,23 @@
+.rightbar{
+  
+    display:flex;
+    align-items: ;
+    justify-content: center;
+    border-left: 1px solid lightgray;
+}
+
+.rightbarWrapper{
+    padding: 20px;
+   
+}
+
+.rightButton{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
