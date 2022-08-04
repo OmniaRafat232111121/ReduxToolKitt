@@ -67,7 +67,7 @@ const handleDelete=(e)=>{
             >
               Update
             </button>
-            {error&&<span>Something went Wrong</span>}
+            {error&&<so}
           </form>
         </div>
       </div>

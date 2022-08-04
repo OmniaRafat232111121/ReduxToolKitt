@@ -43,8 +43,7 @@
     background-color: aliceblue;
 } 
 .error{
-    color:red;
-    font-size: 14px;
+    color:red
 }
   .formItem {
     display: flex;

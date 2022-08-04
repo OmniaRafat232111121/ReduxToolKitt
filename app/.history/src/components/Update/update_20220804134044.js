@@ -7,7 +7,7 @@ import { updateUser } from "../../redux/apiCalls";
 export default function Update() {
 const [name,setName]=useState();
 const [email,setEmail]=useState();
-const {userInfo,pending,error}=useSelector((state)=>state.user.userInfo)
+const user=useSelector((state)=>state.user.userInfo)
 const dispatch=useDispatch();
 const handleUpdate=(e)=>{
   e.preventDefault();
@@ -41,7 +41,7 @@ const handleDelete=(e)=>{
               <input
                 className="formInput"
                 type="text"
-                placeholder={userInfo.name}
+                placeholder={user.name}
                 onChange={(e)=>setName(e.target.value)}
               />
             </div>
@@ -50,7 +50,7 @@ const handleDelete=(e)=>{
               <input
                 className="formInput"
                 type="text"
-                placeholder={userInfo.email}
+                placeholder={user.email}
                 onChange={(e)=>setEmail(e.target.value)}
                
               />
@@ -60,14 +60,13 @@ const handleDelete=(e)=>{
               <input className="formInput" type="password" />
             </div>
             <button
-            disabled={pending}
            
               className="updateButton"
               onClick={handleUpdate}
             >
               Update
             </button>
-            {error&&<span>Something went Wrong</span>}
+           
           </form>
         </div>
       </div>

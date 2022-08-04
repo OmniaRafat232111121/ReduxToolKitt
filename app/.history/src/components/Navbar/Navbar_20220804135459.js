@@ -31,7 +31,7 @@ const Navbar = () => {
             alt=""
           />
           <span className="navbarName">{name}</span>
-          <KeyboardArrowDownIcon />
+          <ArrowDropDown />
         </div>
       </div>
     </div>

@@ -38,14 +38,7 @@
   form {
     flex: 1;
   }
-.updateButton:disabled{
-    cursor: not-allowed;
-    background-color: aliceblue;
-} 
-.error{
-    color:red;
-    font-size: 14px;
-}
+.updateButton:disabled 
   .formItem {
     display: flex;
     flex-direction: column;

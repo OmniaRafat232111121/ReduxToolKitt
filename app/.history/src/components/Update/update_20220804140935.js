@@ -50,7 +50,7 @@ const handleDelete=(e)=>{
               <input
                 className="formInput"
                 type="text"
-                placeholder={userInfo.email}
+                placeholder={userIn.email}
                 onChange={(e)=>setEmail(e.target.value)}
                
               />
@@ -60,14 +60,13 @@ const handleDelete=(e)=>{
               <input className="formInput" type="password" />
             </div>
             <button
-            disabled={pending}
            
               className="updateButton"
               onClick={handleUpdate}
             >
               Update
             </button>
-            {error&&<span>Something went Wrong</span>}
+           
           </form>
         </div>
       </div>

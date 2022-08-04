@@ -42,10 +42,6 @@
     cursor: not-allowed;
     background-color: aliceblue;
 } 
-.error{
-    color:red;
-    font-size: 14px;
-}
   .formItem {
     display: flex;
     flex-direction: column;

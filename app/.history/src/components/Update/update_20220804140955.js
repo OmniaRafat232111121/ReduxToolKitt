@@ -60,14 +60,14 @@ const handleDelete=(e)=>{
               <input className="formInput" type="password" />
             </div>
             <button
-            disabled={pending}
+            dis
            
               className="updateButton"
               onClick={handleUpdate}
             >
               Update
             </button>
-            {error&&<span>Something went Wrong</span>}
+           
           </form>
         </div>
       </div>

@@ -30,3 +30,8 @@ export const { updateStart, updateSuccess, updateFailure } = userSlice.actions;
 
 export default userSlice.reducer;
 
+
+//actionn
+export const {update,remove,addHello}=userSlice.actions;
+//reducers
+export default userSlice.reducer
