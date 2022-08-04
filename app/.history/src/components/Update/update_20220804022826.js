@@ -31,7 +31,6 @@ console.log(name,email);
               <input
                 className="formInput"
                 type="text"
-                placeholder={user.name}
                 onChange={(e)=>setName(e.target.value)}
               />
             </div>
@@ -40,7 +39,6 @@ console.log(name,email);
               <input
                 className="formInput"
                 type="text"
-                placeholder={user.email}
                 onChange={(e)=>setEmail(e.target.value)}
                
               />

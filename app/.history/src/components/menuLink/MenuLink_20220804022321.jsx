@@ -1,6 +1,6 @@
 import React from "react";
 import "./MenuLink.css";
-import { useSelector } from "react-redux/es/exports";
+import {useSelec}
 export default function MenuLink({ icon, text }) {
   const name=useSelector(state=>state.user.name)
   return (
@@ -8,7 +8,7 @@ export default function MenuLink({ icon, text }) {
       {icon}
       <span className="menuLinkText">{text}</span>
       <span className="menuLinkTextName">
-        {text === "Logout" && `( ${name} )`}
+        {text === "Logout" && "( `$(name)` )"}
       </span>
     </div>
   );

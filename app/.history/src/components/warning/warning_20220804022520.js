@@ -1,6 +1,6 @@
 import React from "react";
 import "./warning.css";
-import { useSelector } from "react-redux/es/exports";
+
 export default function Warning() {
     const name=useSelector(state=>state.user.name)
   return (

@@ -40,7 +40,6 @@ console.log(name,email);
               <input
                 className="formInput"
                 type="text"
-                placeholder={user.email}
                 onChange={(e)=>setEmail(e.target.value)}
                
               />
